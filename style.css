@@ -365,7 +365,7 @@ span {
     flex-direction: column;
     gap: 4em;
     padding-left: 4%;
-    padding_top: 50px;
+    padding_top: 150px;
   }
 
   .about-content {
@@ -388,7 +388,7 @@ span {
   }
 
   .home {
-    padding: 20px 6%;
+    padding: 80px 6%;
   }
 
   .btn-box,
