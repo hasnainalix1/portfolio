@@ -5,14 +5,11 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Hasnain Ali</title>
     <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
 </head>
 <body>
     <header class="header">
         <a href="#" class="logo"><span>Hasnain</span> Ali</a>
-        <input type="checkbox" id="menu-toggle">
-        <label for="menu-toggle" class="menu-icon"><i class="fa fa-bars"></i></label>
+        <button class="menu-button"><i class='bx bx-menu'></i></button>
         <nav class="navbar">
             <a href="./about/about.html">About</a>
             <a href="./services/services.html">Services</a>
@@ -25,42 +22,46 @@
     <section class="about">
         <div class="about-content">
             <h3>This is</h3>
-            <h1><span>Hasnain Ali </span></h1>
-            <p>Hey it's me <span>Hasnain Ali</span> I'm a Website Designer. Click Below To Download My CV Or If You Want Work So Contact Us</p>
+            <h1><span>Hasnain Ali</span></h1>
+            <p>Hey it's me <span>Hasnain Ali</span>. I'm a Website Designer. Click below to download my CV or if you want work, contact us.</p>
             <div class="btn-box-1">
-                <button class="btn-3">Download CV </button>
+                <button class="btn-3">Download CV</button>
             </div>
         </div>
         <div class="img-box-2">
-            <img src="./images/hasnain-2.jpg" alt="">
+            <img src="./images/hasnain-2.jpg" alt="Hasnain Ali">
         </div>
     </section>
+
     <div class="line"></div>
 
     <section class="portfolio">
         <div class="testi-box">
             <a href="./services/services.html"><h2 class="heading">Services</h2></a>
+
             <div class="card">
                 <div class="test-item">
-                    <img src="./images/1.jpg" alt="">
+                    <img src="./images/1.jpg" alt="HTML 5">
                     <h2>HTML 5</h2>
-                    <p>Hey I'm a web designer I especially use HTML 5. If you want to see my projects or hire me, visit the link below.</p>
+                    <p>Hey I'm a web designer. I specially use HTML 5. If you want to see my projects or hire me, visit the link below.</p>
                     <div class="btn-box">
                         <a href="./Portfolio/portfolio.html" class="btn-2">Portfolio</a>
                     </div>
                 </div>
+
                 <div class="test-item">
-                    <img src="./images/2.jpg" alt="">
+                    <img src="./images/2.jpg" alt="CSS 3">
                     <h2>CSS 3</h2>
-                    <p>Hey I'm a web designer I especially use CSS 3. If you want to see my projects or hire me, visit the link below.</p>
+                    <p>Hey I'm a web designer. I specially use CSS 3. If you want to see my projects or hire me, visit the link below.</p>
                     <div class="btn-box">
                         <a href="./Portfolio/portfolio.html" class="btn-2">Portfolio</a>
                     </div>
                 </div>
+
                 <div class="test-item">
-                    <img src="./images/3.png" alt="">
+                    <img src="./images/3.png" alt="Bootstrap 5">
                     <h2>Bootstrap 5</h2>
-                    <p>Hey I'm a web designer I especially use Bootstrap 5. If you want to see my projects or hire me, visit the link below.</p>
+                    <p>Hey I'm a web designer. I specially use Bootstrap 5. If you want to see my projects or hire me, visit the link below.</p>
                     <div class="btn-box">
                         <a href="./Portfolio/portfolio.html" class="btn-2">Portfolio</a>
                     </div>
@@ -68,18 +69,24 @@
             </div>
         </div>
     </section>
-    <footer>
-        <div class="footer">
-            <div class="row">
-                <a href="https://www.facebook.com/stvrlightx1"><i class="fa fa-facebook"></i></a>
-                <a href="https://www.instagram.com/sufi.nain/"><i class="fa fa-instagram"></i></a>
-                <a href="https://www.linkedin.com/in/elementorexpert/"><i class="fa fa-linkedin"></i></a>
-                <a href="https://github.com/hasnainalix1"><i class="fa fa-github"></i></a>
-            </div>
-            <div class="row">
-                <p class="copy">Copyright © 2024 - All rights reserved <span>Hasnain Ali</span></p>
-            </div>
+
+    <footer class="footer">
+        <div class="row">
+            <a href="https://www.facebook.com/stvrlightx1"><i class="fa fa-facebook"></i></a>
+            <a href="https://www.instagram.com/sufi.nain/"><i class="fa fa-instagram"></i></a>
+            <a href="https://www.linkedin.com/in/elementorexpert/"><i class="fa fa-linkedin"></i></a>
+            <a href="https://github.com/hasnainalix1"><i class="fa fa-github"></i></a>
+        </div>
+        <div class="row">
+            <p class="copy">Copyright © 2024 - All rights reserved <span>Hasnain Ali</span></p>
         </div>
     </footer>
+
+    <script>
+        // JavaScript for toggling the navbar
+        document.querySelector('.menu-button').addEventListener('click', () => {
+            document.querySelector('.navbar').classList.toggle('active');
+        });
+    </script>
 </body>
 </html>
