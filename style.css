@@ -386,6 +386,10 @@ span {
   .header {
     padding: 20px 8%;
   }
+  
+  .about{
+    pading-top: 120px;
+  }
 
   .home {
     padding: 80px 6%;
@@ -426,6 +430,9 @@ span {
 @media (max-width: 700px) {
   .home-content h3 {
     font-size: 24px;
+  }
+  .about{
+    pading-top: 120px;
   }
 
   .home-content h1 {
