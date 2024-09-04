@@ -345,7 +345,7 @@ span {
 
 /* Responsive Design */
 
-@media (max-width: 1024px) {
+@media (max-width: 350px) {
   .home {
     background-size: cover;
     gap: 4em;
@@ -367,4 +367,99 @@ span {
     padding-left: 4%;
   }
 
-  .about-co
+  .about-content {
+    text-align: center;
+    padding-right: 0;
+  }
+
+  .img-box-2 {
+    margin-right: 0;
+  }
+}
+
+@media (max-width: 350px) {
+  .navbar a {
+    margin: 0 10px;
+  }
+
+  .header {
+    padding: 20px 8%;
+  }
+
+  .home {
+    padding: 20px 6%;
+  }
+
+  .btn-box,
+  .btn-box-1 {
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .card {
+    grid-template-columns: 1fr;
+  }
+
+  .about-content h3,
+  .about-content h1 {
+    font-size: 25px;
+  }
+
+  .about-content p {
+    font-size: 14px;
+  }
+
+  .img-box-2 img {
+    max-width: 100%;
+  }
+  .testi-box .heading {
+     font-size: 48px;
+  }
+  
+  .test-item {
+    max-width: 100%;
+    margin: 20px 0;
+  }
+}
+
+@media (max-width: 340px) {
+  .home-content h3 {
+    font-size: 24px;
+  }
+
+  .home-content h1 {
+    font-size: 22px;
+  }
+
+  .home-content p {
+    font-size: 14px;
+  }
+
+  .btn-1, .btn-2, .btn-3 {
+    font-size: 16px;
+    padding: 10px 15px;
+  }
+
+  .testi-box .heading {
+    font-size: 36px;
+  }
+
+  .test-item {
+    padding: 15px;
+    gap: 16px;
+  }
+
+  .footer {
+    padding: 20px;
+  }
+
+  .footer .row ul li {
+    display: block;
+    margin: 10px 0;
+    text-align: left;
+  }
+
+  .footer .row a i {
+    margin: 0 3%;
+  }
+}
