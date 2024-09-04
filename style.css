@@ -345,7 +345,7 @@ span {
 
 /* Responsive Design */
 
-@media (max-width: 350px) {
+@media (max-width: 1023px) {
   .home {
     background-size: cover;
     gap: 4em;
@@ -377,7 +377,7 @@ span {
   }
 }
 
-@media (max-width: 350px) {
+@media (max-width: 630px) {
   .navbar a {
     margin: 0 10px;
   }
@@ -422,7 +422,7 @@ span {
   }
 }
 
-@media (max-width: 340px) {
+@media (max-width: 700px) {
   .home-content h3 {
     font-size: 24px;
   }
