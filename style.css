@@ -173,7 +173,7 @@ body {
 .img-box-2 img {
     width: 300px;
     border-radius: 50px;
-    filter: brightness(40%);
+    filter: brightness(100%);
 }
 
 .line {
