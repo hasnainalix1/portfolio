@@ -177,7 +177,7 @@ body {
     filter: brightness(100%);
 }
 .img-box-2 img:hover {
-    transform: scale(0.5) translateY(5px);
+    transform: scale(0.5) translateX(10px);
 }
 
 .line {
