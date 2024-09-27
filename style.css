@@ -177,9 +177,9 @@ body {
 }
 
 .img-box-2 img:hover {
-    transform: rotate(10deg); /* Rotate the image */
+    transform: translateY(-10px); 
     filter: brightness(100%);
-    opacity: 0.8; /* Slightly reduce opacity */
+    opacity: 0.8; 
 }
 
 .line {
