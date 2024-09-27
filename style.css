@@ -154,6 +154,7 @@ body {
 
 .about-content {
     max-width: 600px;
+    margin-left: 60px;
 }
 
 .about-content h3 {
