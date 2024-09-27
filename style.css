@@ -42,7 +42,7 @@ body {
     display: none;
     font-size: 24px;
     background: none;
-    border: none;
+    border: none;f
     color: white;
     cursor: pointer;
 }
@@ -174,7 +174,7 @@ body {
 .img-box-2 img {
     width: 300px;
     border-radius: 50px;
-    filter: brightness(100%);
+    filter: brightness(80%);
 }
 .img-box-2 img:hover {
     transform: scale(0.5) translateX(10px);
