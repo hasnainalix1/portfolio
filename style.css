@@ -145,6 +145,7 @@ body {
     min-height: 100vh;
     border-top: double white 5px;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 20px;
     background-color: black;
@@ -154,8 +155,7 @@ body {
 
 .about-content {
     max-width: 600px;
-    margin-left: 60px;
-}
+ }
 
 .about-content h3 {
     font-size: 30px;
